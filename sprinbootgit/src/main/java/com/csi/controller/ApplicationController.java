@@ -10,12 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApplicationController {
 
     @GetMapping
-    public String hello(){
+    public String hello() {
         return "done succesfuly";
     }
 
     @GetMapping("/service")
-    public String welcome(){
+    public String welcome() {
         return "services added by jaya";
+    }
+
+    @GetMapping("/address")
+    public String by() {
+        return "address added/pune";
     }
 }
