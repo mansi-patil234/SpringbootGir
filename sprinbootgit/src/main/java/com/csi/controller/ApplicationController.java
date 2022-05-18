@@ -23,4 +23,9 @@ public class ApplicationController {
     public String by() {
         return "address added/pune";
     }
+
+    @GetMapping("/name")
+    public String name() {
+        return "username";
+    }
 }
