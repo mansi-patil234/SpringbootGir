@@ -13,4 +13,9 @@ public class ApplicationController {
     public String hello(){
         return "done succesfuly";
     }
+
+    @GetMapping("/service")
+    public String welcome(){
+        return "services added by jaya";
+    }
 }
