@@ -28,4 +28,8 @@ public class ApplicationController {
     public String name() {
         return "username";
     }
+    @GetMapping("/mansi")
+    public String mansi() {
+        return "MERAname";
+    }
 }
